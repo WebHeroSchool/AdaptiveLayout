@@ -1,0 +1,154 @@
+.head {
+	color: black;
+	font-size: 40px;
+}
+
+.menu__link {
+	color: navy;
+	font-size: 25px;
+}
+
+.icon {
+    cursor: pointer;
+    display: none;
+    width: 45px;
+    height: 35px;
+    position: relative;
+}
+
+.icon__line {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #333333;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+}
+
+.icon__line:nth-child(1) {
+    top: 0px;
+}
+
+.icon__line:nth-child(2), .icon__line:nth-child(3) {
+    top: 13px;
+}
+
+.icon__line:nth-child(4) {
+    top: 26px;
+}
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+ .head {
+  font-size: 25px;
+  }
+
+  .menu__link {
+   font-size: 15px;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    z-index: 1000;
+    overflow: auto;
+  }
+ } 
+
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+ .head {
+  font-size: 30px;
+  }
+
+  .menu__link {
+   font-size: 20px;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    z-index: 1000;
+    overflow: auto;
+  }
+ }
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+ .head {
+  font-size: 35px;
+  }
+
+  .menu__link {
+   font-size: 25px;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    z-index: 1000;
+    overflow: auto;
+  }
+ }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+ .head {
+  font-size: 40px;
+  }
+
+  .menu__link {
+   font-size: 30px;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    z-index: 1000;
+    overflow: auto;
+  }
+ }
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+ .head {
+  font-size: 45px;
+  }
+
+  .menu__link {
+   font-size: 35px;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    z-index: 1000;
+    overflow: auto;
+  }
+ }
+
